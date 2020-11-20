@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/main_IMG_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_blue"
+                android:tag="main_BTN_blue"
+                android:text="Blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_green"
+                android:tag="main_BTN_green"
+                android:text="Green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_red"
+                android:tag="main_BTN_red"
+                android:text="Red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_grey"
+                android:tag="main_BTN_grey"
+                android:text="Grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_inverting"
+                android:tag="main_BTN_inverting"
+                android:text="Inverted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_colorSwap"
+                android:tag="main_BTN_colorSwap"
+                android:text="colorSwap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_colorSwap2"
+                android:tag="main_BTN_colorSwap2"
+                android:text="colorSwap2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_reset"
+                android:tag="main_BTN_reset"
+                android:text="reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_show"
+                android:tag="main_BTN_show"
+                android:text="show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_greyBlue"
+                android:tag="main_BTN_greyBlue"
+                android:text="greyBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_greyRed"
+                android:tag="main_BTN_greyRed"
+                android:text="greyRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/main_BTN_greyGreen"
+                android:tag="main_BTN_greyGreen"
+                android:text="greyGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

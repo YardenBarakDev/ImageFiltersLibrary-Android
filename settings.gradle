@@ -1,0 +1,3 @@
+include ':ImageFiltersLibrary'
+include ':app'
+rootProject.name = "FiltersLibrary"
