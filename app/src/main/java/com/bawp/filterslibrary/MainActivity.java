@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         main_BTN_show.setOnClickListener(mainClickListener);
 
         colorFilters = new ColorFilters();
+        
     }
 
 
