@@ -1,4 +1,4 @@
-# FiltersLibrary
+# ImageFiltersLibrary-Android
 [![](https://jitpack.io/v/YardenBarakDev/FiltersLibrary.svg)](https://jitpack.io/#YardenBarakDev/FiltersLibrary)
 
 
