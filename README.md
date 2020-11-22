@@ -1,5 +1,5 @@
 # ImageFiltersLibrary-Android
-[![](https://jitpack.io/v/YardenBarakDev/FiltersLibrary.svg)](https://jitpack.io/#YardenBarakDev/FiltersLibrary)
+[![](https://jitpack.io/v/YardenBarakDev/ImageFiltersLibrary-Android.svg)](https://jitpack.io/#YardenBarakDev/ImageFiltersLibrary-Android)
 
 
 A library for simple implementation of Filters. the user will be able to set an Image using Glide(https://github.com/bumptech/glide) and add filters to the image.
@@ -56,7 +56,7 @@ Step 1. Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	         implementation 'com.github.YardenBarakDev:FiltersLibrary:v1.0'
+	         implementation 'com.github.YardenBarakDev:ImageFiltersLibrary-Android:v1.0'
 	}
   
   
