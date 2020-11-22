@@ -1,7 +1,6 @@
 # ImageFiltersLibrary-Android
 [![](https://jitpack.io/v/YardenBarakDev/ImageFiltersLibrary-Android.svg)](https://jitpack.io/#YardenBarakDev/ImageFiltersLibrary-Android)
 
-
 A library for simple implementation of Filters. the user will be able to set an Image using Glide(https://github.com/bumptech/glide) and add filters to the image.
 
 Picture by Denise Chan on Unsplash
